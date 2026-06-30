@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0093/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0093/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清華晨三奔玉訣
+  date: '2015-08-28 23:49:20.850889'
+  source:
+    repository: kanripo
+    path: KR5b0093
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0093_000-HFL.yaml, hash: 'sha256:a54effdcbaff07216903bbf384d5d9d1554efef8e907eb8ef0b272130a4c54c6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0093_000-HFL.markers.yaml, hash: 'sha256:cf1742487f85e701c60820f959e2af96595b40bbbfaa4e6e7a93626680fc6f31'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0093_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1031
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:59051bd4ad73ad415fd715e70c72d69f8fcbb6fae5b85d3b6739269ec6443af1
